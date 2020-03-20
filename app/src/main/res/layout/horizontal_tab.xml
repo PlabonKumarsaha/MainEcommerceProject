@@ -16,7 +16,7 @@
         android:id="@+id/newsfeedImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/newsfeed"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="15dp"/>
 <TextView
@@ -34,7 +34,7 @@
             android:id="@+id/GiftCardImage"
             android:layout_width="60dp"
             android:layout_height="60dp"
-            android:src="@drawable/ic_launcher_background"
+            android:src="@drawable/gift_card"
             android:layout_toRightOf="@+id/newsfeedImage"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="15dp"/>
@@ -54,7 +54,7 @@
         android:id="@+id/CampaignsImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/campaign"
         android:layout_toRightOf="@+id/GiftCardImage"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="15dp"/>
@@ -73,7 +73,7 @@
         android:id="@+id/OrdersImage"
         android:layout_width="60dp"
         android:layout_height="60dp"
-        android:src="@drawable/ic_launcher_background"
+        android:src="@drawable/order"
         android:layout_toRightOf="@+id/CampaignsImage"
         android:layout_marginLeft="10dp"
         android:layout_marginRight="15dp"/>

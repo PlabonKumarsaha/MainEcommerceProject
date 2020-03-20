@@ -108,16 +108,21 @@ public class HomeFragment extends Fragment {
     @SuppressLint("ResourceAsColor")
     private void selectTabs(int position) {
         if (position == 0) {
-            brandsTab.setTextColor(R.color.tab);
-            shopsTab.setTextColor(R.color.tab);
+//            brandsTab.setTextColor(R.color.tab);
+//            shopsTab.setTextColor(R.color.tab);
+
+            catagoriesTab.setTextSize(20f);
         }
         if (position == 1) {
-            catagoriesTab.setTextColor(R.color.tab);
-            shopsTab.setTextColor(R.color.tab);
+
+          //  catagoriesTab.setBackgroundColor(R.color.black);
+
+//            catagoriesTab.setTextColor(R.color.tab);
+//            shopsTab.setTextColor(R.color.tab);
         }
         if (position == 2) {
-            brandsTab.setTextColor(R.color.tab);
-            catagoriesTab.setTextColor(R.color.tab);
+//            brandsTab.setTextColor(R.color.tab);
+//            catagoriesTab.setTextColor(R.color.tab);
         }
     }
 
