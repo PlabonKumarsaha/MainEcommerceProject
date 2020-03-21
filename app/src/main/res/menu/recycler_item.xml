@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/bags"
+        android:title="Bags"></item>
+    <item
+        android:id="@+id/bodyCare"
+        android:title="BodyCare"></item>
+    <item
+        android:id="@+id/books"
+        android:title="Books"></item>
+    <item
+        android:id="@+id/constructionMaterials"
+        android:title="Construction materials"></item>
+    <item
+        android:id="@+id/decorationMaterial"
+        android:title="Decoration Materials"></item>
+    <item
+        android:id="@+id/digitalGoods"
+        android:title="Digital Goods"></item>
+
+    <item
+        android:id="@+id/electric"
+        android:title="Electric"></item>
+    <item
+        android:id="@+id/event"
+        android:title="Event"></item>
+    <item
+        android:id="@+id/mansFashion"
+        android:title="Man's Fashion"></item>
+    <item
+        android:id="@+id/furniture"
+        android:title="Furniture"></item>
+
+</menu>
