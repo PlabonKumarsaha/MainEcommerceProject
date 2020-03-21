@@ -75,6 +75,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
         bottomNavigationView = findViewById(R.id.navigationView);
         drawerLayout = (DrawerLayout) findViewById(R.id.drawer);
         navbar = (NavigationView) findViewById(R.id.navBar);
+
     }
 
     @Override
