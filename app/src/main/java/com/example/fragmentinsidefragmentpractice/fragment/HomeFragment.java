@@ -105,6 +105,7 @@ public class HomeFragment extends Fragment {
 
     }
 
+
     @SuppressLint("ResourceAsColor")
     private void selectTabs(int position) {
         if (position == 0) {
