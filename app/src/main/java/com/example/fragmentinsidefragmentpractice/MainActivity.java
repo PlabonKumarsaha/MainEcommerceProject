@@ -2,6 +2,7 @@ package com.example.fragmentinsidefragmentpractice;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.drawerlayout.widget.DrawerLayout;
 import androidx.fragment.app.Fragment;
@@ -9,6 +10,7 @@ import androidx.fragment.app.FragmentManager;
 import androidx.fragment.app.FragmentTransaction;
 
 import android.app.Activity;
+import android.content.DialogInterface;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.widget.FrameLayout;
@@ -34,6 +36,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        this.setTitle("Evaly");
         findAllView();
         repleaseFragment(new HomeFragment());
         bottomNavigationView.setOnNavigationItemSelectedListener(this);
@@ -66,7 +69,7 @@ public class MainActivity extends AppCompatActivity implements BottomNavigationV
 
     private void repleaseFragment(Fragment fragment) {
         FragmentTransaction fm;
-        fm = getSupportFragmentManager().beginTransaction().replace(R.id.fragment, fragment);
+        fm = getSupportFragmentManager().beginTransaction().replace(R.id.fragment, fragment).addToBackStack(null);
         fm.commit();
     }
 

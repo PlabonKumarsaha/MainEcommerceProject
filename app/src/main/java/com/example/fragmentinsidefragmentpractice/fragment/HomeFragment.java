@@ -39,7 +39,6 @@ public class HomeFragment extends Fragment {
         // Inflate the layout for this fragment
         view = inflater.inflate(R.layout.fragment_home, container, false);
 
-//        tabLayout = view.findViewById(R.id.tabLayout);
         viewPager = view.findViewById(R.id.viewPager);
         catagoriesTab = view.findViewById(R.id.categories);
         brandsTab = view.findViewById(R.id.brands);
@@ -126,5 +125,6 @@ public class HomeFragment extends Fragment {
 //            catagoriesTab.setTextColor(R.color.tab);
         }
     }
+
 
 }
