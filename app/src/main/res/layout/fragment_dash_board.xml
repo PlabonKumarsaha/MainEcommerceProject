@@ -23,8 +23,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="100dp"
-        android:gravity="center"
+         android:gravity="center"
         android:orientation="vertical">
 
         <ss.anoop.awesometextinputlayout.AwesomeTextInputLayout
@@ -83,25 +82,6 @@
             android:text="Forgot your password?"
             android:textColor="@color/black" />
 
-        <!--    <LinearLayout-->
-        <!--        android:layout_width="match_parent"-->
-        <!--        android:layout_height="wrap_content"-->
-        <!--        android:layout_marginTop="10dp"-->
-        <!--        android:gravity="center_horizontal"-->
-        <!--        android:orientation="horizontal">-->
-
-        <!--        <CheckBox-->
-        <!--            android:layout_width="wrap_content"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:layout_marginLeft="10dp" />-->
-
-        <!--        <TextView-->
-        <!--            android:layout_width="match_parent"-->
-        <!--            android:layout_height="wrap_content"-->
-        <!--            android:text="Keep me login"-->
-        <!--            android:textStyle="bold" />-->
-        <!--    </LinearLayout>-->
-
         <Button
             android:id="@+id/login"
             android:layout_width="wrap_content"
@@ -117,7 +97,9 @@
         <LinearLayout
             android:id="@+id/resister"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
+            android:layout_height="50dp"
+
+            android:gravity="center_vertical"
             android:layout_marginLeft="10dp"
             android:layout_marginTop="3dp"
             android:layout_marginBottom="2dp"
@@ -138,32 +120,6 @@
                 android:text="Sign Up"
                 android:textColor="#3C484C"
                 android:textStyle="bold" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_horizontal"
-            android:orientation="horizontal">
-
-            <Button
-                android:id="@+id/admin"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:text="admin"
-                android:textAllCaps="false"
-                android:visibility="gone" />
-
-            <Button
-                android:id="@+id/test"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginRight="10dp"
-                android:text="Test"
-                android:textAllCaps="false"
-                android:visibility="gone" />
-
         </LinearLayout>
 
 
