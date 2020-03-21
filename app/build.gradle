@@ -36,4 +36,6 @@ dependencies {
     implementation 'com.android.support:design:29.0.0'
     implementation 'com.google.android.material:material:1.1.0'
     implementation 'de.hdodenhof:circleimageview:3.1.0'
+    //for edit text design
+    implementation "ss.anoop:awesome-textinput-layout:1.0.0"
 }
